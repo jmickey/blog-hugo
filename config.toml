@@ -1,18 +1,38 @@
 baseURL = "https://jaymickey.github.io"
-languageCode = "en-us"
-title = "Josh M. - DevOps Engineer"
-theme = "even"
-enableRobotTXT = true
-enableEmoji = true
-
-copyright = "Josh Michielsen"
-
-[author]
-  name = "Josh Michielsen"
-
-[params]
-  since = "2018"
-  logoTitle = "Josh M."
+title = "Josh Michielsen - Blog"
+theme = "minimo"
+copyright = ""
+enableRobotsTXT = true
+defaultContentLanguage = "en"
+Paginate = 10
+preserveTaxonomyNames = true
 
 [params.social]
-  a-email = "mailto:me@joshm.io"
+  github = "jaymickey"
+  twitter = "JoshMichielsen"
+
+[params.social.config]
+  platforms = ["github", "twitter"]
+
+[params.info]
+  description = "Devin' the Ops"
+  title404 = "Nothing's here!"
+
+[params.copyright]
+  prefix = ""
+  holder = "Josh Michielsen"
+  startYear = "2018"
+  suffix = ""
+
+[params.settings]
+  recentPostsLength = 4
+  homepageSections = ["recent_posts"]
+
+[taxonomies]
+  author = "authors"
+
+[languages]
+  [languages.en]
+    lang = "en"
+    languageName = "English"
+    weight = 1
