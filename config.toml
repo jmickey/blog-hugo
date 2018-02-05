@@ -1,21 +1,24 @@
 baseURL = "https://jaymickey.github.io"
-title = "Josh Michielsen - Blog"
+title = "Josh Michielsen (Jmickey)"
 theme = "minimo"
 copyright = ""
 enableRobotsTXT = true
 defaultContentLanguage = "en"
 Paginate = 10
 preserveTaxonomyNames = true
+pygmentsCodefences = true
 
 [params.social]
   github = "jaymickey"
-  twitter = "JoshMichielsen"
+  twitter = "jmickey_"
+  email = "josh@jmickey.io"
+  linkedin = "jmichielsen"
 
 [params.social.config]
-  platforms = ["github", "twitter"]
+  platforms = ["linkedin", "github", "twitter", "email"]
 
 [params.info]
-  description = "Devin' the Ops"
+  description = "DevOps Engineer @ Bankwest by day. CompSci & Data Science student by night. Passionate about DevOps, Continuous Delivery, Infrastructure as Code, and Software Development"
   title404 = "Nothing's here!"
 
 [params.copyright]
