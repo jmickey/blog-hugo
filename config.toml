@@ -8,6 +8,10 @@ Paginate = 10
 preserveTaxonomyNames = true
 pygmentsCodefences = true
 
+[params.settings]
+  dateFormat = "2006, Jan 02"
+  listDateFormat = "2006, Jan 02"
+
 [params.social]
   github = "jaymickey"
   twitter = "jmickey_"
@@ -27,9 +31,13 @@ pygmentsCodefences = true
   startYear = "2018"
   suffix = ""
 
-[params.settings]
-  recentPostsLength = 4
-  homepageSections = ["recent_posts"]
+[params.widgets]
+  homepage = ["recent_posts"]
+  sidebar = []
+
+[params.sidebar]
+  enable = true
+  sticky = true
 
 [taxonomies]
   author = "authors"
