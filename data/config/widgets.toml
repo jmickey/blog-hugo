@@ -3,3 +3,8 @@
   title = ""                            # default: "Recent Posts"
   length = 4                            # default: 5
   excludeTypes = ["page"]               # default: ["page"]
+
+[about]
+title = "Jmickey"                            # default: .Site.Title
+description = "Platform Engineering, DevOps, SRE, Software Dev, Computer Science, Fountain Pens, Coffee"                      # default: .Site.Params.info.description
+logo = "/images/logo.png"

@@ -14,15 +14,15 @@ pygmentsCodefences = true
 
 [params.social]
   github = "jaymickey"
+  linkedin = "jmichielsen"
   twitter = "jmickey_"
   email = "josh@jmickey.io"
-  linkedin = "jmichielsen"
 
 [params.social.config]
   platforms = ["linkedin", "github", "twitter", "email"]
 
 [params.info]
-  description = "DevOps Engineer @ Bankwest by day. CompSci & Data Science student by night. Passionate about DevOps, Continuous Delivery, Infrastructure as Code, and Software Development"
+  description = "DevOps Engineer @ Bankwest. CompSci & Data Science student @ UNE. Passionate about DevOps, Continuous Delivery, Infrastructure as Code, and Software Development (Python, C#, Scala, and soon - Golang)"
   title404 = "Nothing's here!"
 
 [params.copyright]
@@ -33,7 +33,7 @@ pygmentsCodefences = true
 
 [params.widgets]
   homepage = ["recent_posts"]
-  sidebar = []
+  sidebar = ["about", "social_menu"]
 
 [params.sidebar]
   enable = true
