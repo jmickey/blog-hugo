@@ -17,7 +17,7 @@ The aim of this blog post isn't to provide yet another overview of what DevOps i
 
 ## What is a DevOps Engineer?
 
-According to [research by Indeed.com](http://blog.indeed.com/2016/08/18/what-are-hardest-jobs-fill-in-tech/), DevOps engineers are in high demand, and with a [median salary of over \$100k/year across Australia](https://www.payscale.com/research/AU/Job=Development_Operations_(DevOps)_Engineer/Salary) it's easy to see why many IT professionals are looking for pathways into these positions. However, the same Indeed.com survey reveals DevOps engineers as some of the most difficult to recruit. In part, this is due to the lack of clear definition of the DevOps engineer role, and what skills they should possess.
+According to [research by Indeed.com](http://blog.indeed.com/2016/08/18/what-are-hardest-jobs-fill-in-tech/), DevOps engineers are in high demand, and with a [median salary of over $100kyear across Australia](https://www.payscale.com/research/AU/Job=Development_Operations_(DevOps)_Engineer/Salary) it's easy to see why many IT professionals are looking for pathways into these positions. However, the same Indeed.com survey reveals DevOps engineers as some of the most difficult to recruit. In part, this is due to the lack of clear definition of the DevOps engineer role, and what skills they should possess.
 
 During his time as Head of Operations at Puppet Labs, Kelsey Hightower described DevOps engineers as the "special forces" of an organisation, going on to say:
 
@@ -43,10 +43,10 @@ It's a popular misconception online and elsewhere that DevOps Engineers should b
 
 #### Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment (CD)
 
-These practices form the cornerstone of the DevOps engineers' skillset, and it\'s crucial to understand [what each term means](https://www.atlassian.com/continuous-delivery/ci-vs-ci-vs-cd) and the tools/platforms built to achieve them. TeamCity, Jenkins, CircleCI, Octopus, and a host of other CI/CD systems generally top the list of requirements on job postings. However, it's not the tool itself that should be the focus here, but a solid understanding of the concepts that each of these solutions are attempting to encapsulate. Such concepts include:
+These practices form the cornerstone of the DevOps engineers' skillset, and it's crucial to understand [what each term means](https://www.atlassian.com/continuous-delivery/ci-vs-ci-vs-cd) and the tools/platforms built to achieve them. TeamCity, Jenkins, CircleCI, Octopus, and a host of other CI/CD systems generally top the list of requirements on job postings. However, it's not the tool itself that should be the focus here, but a solid understanding of the concepts that each of these solutions are attempting to encapsulate. Such concepts include:
 
 - Distributed version control - Understanding local/remote repos, branching, pull requests, and merging should be a basic requirement.
-- Build tooling - It\'s important to understand the toolchains used to compile application code, examples include Gradle, Maven, make, MSBuild.
+- Build tooling - It's important to understand the toolchains used to compile application code, examples include Gradle, Maven, make, MSBuild.
 - Testing - Beyond just knowing the different types of tests (unit, integration, functional), an understanding of what each type of test is attempting to achieve, and more practically, how to write good tests in each instance.
 - Package management - Both in terms of application dependencies and deployment artefacts. Additionally, versioning and artefact hosting (Nexus, Artifactory). Examples include NuGet, NPM, Maven, Tarballs, and even containers.
 - Deployment strategies - Getting the artefact to its destination environment (test, stage, prod), in a repeatable manner, while minimising downtime and maximising feedback. Examples include reckless, blue/green, canary.
