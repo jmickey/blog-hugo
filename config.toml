@@ -1,46 +1,64 @@
 baseURL = "https://jaymickey.github.io"
 title = "Josh Michielsen (Jmickey)"
-theme = "minimo"
-copyright = ""
+theme = "KeepIt"
+copyright = "2019 Josh Michielsen"
+enableEmoji = true
 enableRobotsTXT = true
 defaultContentLanguage = "en"
 Paginate = 10
 preserveTaxonomyNames = true
 pygmentsCodefences = true
 
-[params.settings]
-  dateFormat = "2006, Jan 02"
-  listDateFormat = "2006, Jan 02"
+[author]
+  name = "jmickey"
+
+  [params.publisher]
+    name = "jmickey"
+
+    [params.publisher.logo]
+      url = "images/logo.png"
+      width = 127
+      height = 40
+
+  [params.logo]
+    url = "images/logo.png"
+    width = 127
+    height = 40
+
+[Permalinks]
+ posts = "/:filename"
+
+ [menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+
+[params]
+  author = "Josh Michielsen"
+  subtitle = "Platform Engineer, Go, Kubernetes, Photography, Coffee"
+  description = "Aussie 🇦🇺 in Cambridge 🇬🇧. Senior Software Engineer, Cloud Platform @ Condé Nast International. Previously Bankwest. #doge owner. Photographer 📷"
+  socialShare = true
+
+[params.gravatar]
+    email = "j@mickey.dev"
 
 [params.social]
-  github = "jaymickey"
-  linkedin = "jmichielsen"
-  twitter = "jmickey_"
-  email = "josh@jmickey.io"
+  Github = "jaymickey"
+  Linkedin = "jmichielsen"
+  Twitter = "jmickey_"
+  Email = "j@mickey.dev"
+  Strava = "32368360"
+  Keybase = "jmickey"
 
-[params.social.config]
-  platforms = ["linkedin", "github", "twitter", "email"]
-
-[params.info]
-  description = "DevOps Engineer @ Bankwest. CompSci & Data Science student @ UNE. Passionate about DevOps, Continuous Delivery, Infrastructure as Code, and Software Development (Python, C#, Scala, and soon - Golang)"
-  title404 = "Nothing's here!"
-
-[params.copyright]
-  prefix = ""
-  holder = "Josh Michielsen"
-  startYear = "2018"
-  suffix = ""
-
-[params.widgets]
-  homepage = ["recent_posts"]
-  sidebar = ["about", "social_menu"]
-
-[params.sidebar]
-  enable = true
-  sticky = true
-
-[taxonomies]
-  author = "authors"
+[params.share]
+  Twitter = true
+  Linkedin = true
 
 [languages]
   [languages.en]

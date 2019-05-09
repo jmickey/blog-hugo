@@ -17,7 +17,7 @@ The aim of this blog post isn't to provide yet another overview of what DevOps i
 
 ## What is a DevOps Engineer?
 
-According to [research by Indeed.com](http://blog.indeed.com/2016/08/18/what-are-hardest-jobs-fill-in-tech/), DevOps engineers are in high demand, and with a [median salary of over $100kyear across Australia](https://www.payscale.com/research/AU/Job=Development_Operations_(DevOps)_Engineer/Salary) it's easy to see why many IT professionals are looking for pathways into these positions. However, the same Indeed.com survey reveals DevOps engineers as some of the most difficult to recruit. In part, this is due to the lack of clear definition of the DevOps engineer role, and what skills they should possess.
+According to [research by Indeed.com](http://blog.indeed.com/2016/08/18/what-are-hardest-jobs-fill-in-tech/), DevOps engineers are in high demand, and with a [median salary of over $100k/year across Australia](https://www.payscale.com/research/AU/Job=Development_Operations_(DevOps)_Engineer/Salary) it's easy to see why many IT professionals are looking for pathways into these positions. However, the same Indeed.com survey reveals DevOps engineers as some of the most difficult to recruit. In part, this is due to the lack of clear definition of the DevOps engineer role, and what skills they should possess.
 
 During his time as Head of Operations at Puppet Labs, Kelsey Hightower described DevOps engineers as the "special forces" of an organisation, going on to say:
 
