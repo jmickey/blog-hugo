@@ -1,7 +1,0 @@
-[submodule "public"]
-	path = public
-	url = https://github.com/jaymickey/jaymickey.github.io.git
-	branch = master
-[submodule "themes/KeepIt"]
-	path = themes/KeepIt
-	url = https://github.com/Fastbyte01/KeepIt.git

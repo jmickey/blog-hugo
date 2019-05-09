@@ -1,6 +1,6 @@
 baseURL = "https://mickey.dev"
 title = "Josh Michielsen (Jmickey)"
-theme = "KeepIt"
+theme = "KeepItNew"
 copyright = "2019 Josh Michielsen"
 enableEmoji = true
 enableRobotsTXT = true
@@ -41,7 +41,8 @@ pygmentsCodefences = true
 
 [params]
   author = "Josh Michielsen"
-  subtitle = "Platform Engineer, Go, Kubernetes, Photography, Coffee"
+  subtitle = "Senior Platform Engineer @ Condé Nast International"
+  subtitle_additional = "Platform Engineering, Kubernetes, AWS, Go, Cycling, Photography, Coffee"
   description = "Aussie 🇦🇺 in Cambridge 🇬🇧. Senior Software Engineer, Cloud Platform @ Condé Nast International. Previously Bankwest. #doge owner. Photographer 📷"
   socialShare = true
 
