@@ -1,7 +1,7 @@
 [submodule "public"]
 	path = public
-	url = git@github.com:jaymickey/jaymickey.github.io.git
+	url = https://github.com/jaymickey/jaymickey.github.io.git
 	branch = master
 [submodule "themes/KeepIt"]
 	path = themes/KeepIt
-	url = git@github.com:Fastbyte01/KeepIt.git
+	url = https://github.com/Fastbyte01/KeepIt.git
