@@ -26,7 +26,7 @@ pygmentsCodefences = true
     height = 40
 
 [Permalinks]
- posts = "/:filename"
+ posts = "/:posts/:filename"
 
  [menu]
   [[menu.main]]
