@@ -16,14 +16,19 @@ pygmentsCodefences = true
     name = "jmickey"
 
     [params.publisher.logo]
-      url = "images/logo.png"
+      url = "logo.png"
       width = 127
       height = 40
 
   [params.logo]
-    url = "images/logo.png"
+    url = "logo.png"
     width = 127
     height = 40
+
+  [params.image]
+    url = "cover.jpg"
+    width = 800
+    height = 600
 
 [Permalinks]
  posts = "/posts/:slug"
