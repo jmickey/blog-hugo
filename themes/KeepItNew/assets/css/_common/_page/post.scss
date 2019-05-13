@@ -3,7 +3,7 @@
 .post-warp {
     position: relative;
     width: 100%;
-    max-width: 780px;
+    max-width: 900px;
     margin: 0 auto;
     padding-top: 2rem;
 
@@ -128,6 +128,8 @@
             img:hover{
                 cursor: zoom-in;
             }
+            margin-inline-start: 0;
+            margin-inline-end: 0;
         }
 
         .image-caption:not(:empty) {
@@ -144,13 +146,13 @@
 
         img {
             display: block;
-            max-width: 80%;
+            max-width: 100%;
             height: auto;
             margin: 0 auto;
             overflow: hidden;
         }
 
-     
+
 
         img[data-action="zoom"] {
             cursor: zoom-in;
@@ -177,7 +179,7 @@
         .copyright-item {
             margin: 5px 0;
         }
-        
+
         .dark-theme & {
             border-top: 1px solid $dark-border-color;
             border-bottom: 1px solid $dark-border-color;

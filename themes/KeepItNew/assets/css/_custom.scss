@@ -2,3 +2,19 @@
 // Custom style
 // ==============================
 // You can override the variables in _variables.scss to customize the style
+
+.entry-toc nav>ul {
+    margin-left: 0;
+    padding-left: 0 !important;
+}
+
+.entry-toc ul, .entry-toc li {
+    list-style: none;
+}
+
+.entry-toc {
+    display: block;
+    margin: 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+}

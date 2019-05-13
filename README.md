@@ -1,3 +1,5 @@
-# Personal Blog
+# Personal Website
 
-This repo holds my personal blog build with [Hugo](httpa://gohugo.io)
+## <https://mickey.dev>
+
+This repo holds my personal website build with [Hugo](httpa://gohugo.io).

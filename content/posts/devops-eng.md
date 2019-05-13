@@ -1,13 +1,13 @@
 ---
 date: 2018-02-13T16:00:00+06:00
-lastmod: 2018-02-13T16:00:00+06:00
-title: Becoming a DevOps Engineer - Part 1
+lastmod: 2019-05-11
+title: Becoming a DevOps Engineer
 authors: ["jmickey"]
-slug: becoming-devops-eng-p1
+slug: becoming-devops-eng
+categories: ["Career Advice"]
+tags: ["DevOps"]
 toc: true
 ---
-
-# Becoming a DevOps Engineer
 
 ## Introduction
 
@@ -21,7 +21,7 @@ According to [research by Indeed.com](http://blog.indeed.com/2016/08/18/what-are
 
 During his time as Head of Operations at Puppet Labs, Kelsey Hightower described DevOps engineers as the "special forces" of an organisation, going on to say:
 
-> The DevOps engineer encapsulates depth of knowledge and years of hands on experience. You're battle tested. This person blends the skills of the business analyst with the technical chops to build the solution - plus they know the business well, and can look at how any issue affects the entire company.
+<blockquote cite="Kelsey Hightower"> The DevOps engineer encapsulates depth of knowledge and years of hands on experience. You're battle tested. This person blends the skills of the business analyst with the technical chops to build the solution - plus they know the business well, and can look at how any issue affects the entire company.</blockquote>
 
 Now, it would be far too self-indulgent of me to say that I accurately fit this description, but it does help provide context as to the level of seniority and technical skills a DevOps engineer is expected to possess. They require both breadth and depth of knowledge spanning multiple business domains, including systems administration, software development, quality assurance, and business analysis. Now, let's take a look at the core skillset:
 
