@@ -1,7 +1,7 @@
 ---
 date: "2019-05-13"
 authors: ["jmickey"]
-slug: "80-interview-across-planet"
+slug: "80-interviews-across-planet"
 title: "80 Interviews From Across The Planet"
 featured_image: "/images/featured/interviews.png"
 categories: ["Career Advice"]
@@ -123,5 +123,5 @@ I'm going to keep this section short, because most of these things that really a
 
 So - this has gotten pretty long. I hope someone finds value in my experience! To conclude this post I want to say this - Almost 6 months ago I started a position with one of almost 40 companies I spoke to - [Condé Nast International](https://condenastinternational.com) (CNI). I'm pleased to say that almost 6 months later I don't regret my decision for a single second. I **love** working at CNI. I work with awesome people, solving interesting problems, at a company that cares about creating an amazing, diverse, and inclusive places to work. I'm thankful that I had the priviledge to speak with so many companies and eventually make a definitive decision.
 
-Cheers,
+Cheers,  
 Josh M
