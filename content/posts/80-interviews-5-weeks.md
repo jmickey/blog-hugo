@@ -73,7 +73,7 @@ I mostly applied for jobs that came under banner of "DevOps Engineer", "Platform
 
 I kept the technical criteria pretty small because, outside of a few basic things, I wasn't overly fussed with the tech stack. My primary focus beyond the list above was the culture and values of the company.
 
-##Down The Learning Brick Road
+## Down The Learning Brick Road
 
 There were some interesting lessons over the course of those 5 weeks, so I'm going to go over a few of those lessons learnt, which will also cover how my thought process evolved and my priorities changed over time.
 
