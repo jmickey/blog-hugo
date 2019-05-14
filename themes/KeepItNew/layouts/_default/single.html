@@ -15,13 +15,13 @@
                         {{ range . }}
                         {{- $name := . -}}
                         {{- with $.Site.GetPage "taxonomy" (printf "categories/%s" $name) | default ($.Site.GetPage "taxonomy" (printf "categories/%s" ($name | urlize))) -}}
-                          <a href="{{ .Permalink }}"> {{ $name }} </a>
+                          <a href="{{ .Permalink }}"> &nbsp;{{ $name }} </a>
                         {{ end -}}
                         {{ end }}
                 </span>
                 {{- end }}
                 <i class="iconfont icon-timer"></i>
-                {{.ReadingTime }} min
+                &nbsp;{{.ReadingTime }} min
         </div>
     </header>
     <div class="post-content">
