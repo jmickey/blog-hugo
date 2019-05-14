@@ -7,7 +7,7 @@ enableRobotsTXT = true
 defaultContentLanguage = "en"
 Paginate = 10
 preserveTaxonomyNames = true
-pygmentsCodefences = true
+googleAnalytics = "UA-140141781-1"
 
 [author]
   name = "jmickey"
