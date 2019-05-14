@@ -115,8 +115,20 @@
          color: $dark-post-link-color;
        }
     }
+
+    $cite_attr: attr(cite);
+    @mixin cite_mixin($cite_attr) {
+      @if not $cite_attr {
+        content: "--" attr(cite);
+      } @else {
+        content: " ";
+        padding-bottom: 10px;
+      }
+    }
+
     &:after {
-      content: "--" attr(cite);
+      @include cite_mixin(attr(cite));
+      //content: "--" attr(cite);
       display: block;
       text-align: right;
       font-size: 0.875em;

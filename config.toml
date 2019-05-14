@@ -9,6 +9,9 @@ Paginate = 10
 preserveTaxonomyNames = true
 googleAnalytics = "UA-140141781-1"
 
+[blackfriday]
+  hrefTargetBlank = true
+
 [author]
   name = "jmickey"
 

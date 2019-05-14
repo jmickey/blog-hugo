@@ -115,7 +115,7 @@ Another key question was in regards to the ownership of the delivery process. It
 I'm going to keep this section short, because most of these things that really annoy me are fairly self-explainatory:
 
 - "Bro culture" - The prevalance of obnoxious and arrogant dudes that consider their "fast-paced, take no prisoners" workplace so awesome.
-- Take-home assessements that have no relevance to the role. Most of these consist of obscure computer science puzzles that you would find on LeetCode or Hacker Rank.
+- Take-home assessements that have no relevance to the role. Most of these consist of [obscure computer science puzzles](https://mickey.dev/images/2019/05/silly-tech-puzzles.png) that you would find on LeetCode or Hacker Rank.
 - Take-home assessments that require more than a few hours. These aren't as rare as you would want to think. At least 2 of the assessments I completed expected more than 10 hours of committment. This kind of expectation is a form of bias and arbitrary gate-keeping. Employers, please stop this.
 - Companies that won't discuss salary upfront.
 - Long, fluffy questionnaires in application forms. E.g. "In 150 words or more explain why you want to work for `dime-a-dozen tech company`?"
