@@ -22,7 +22,7 @@ toc: true
 
 On December 3rd 2018 I boarded a one-way flight from Perth, Western Australia to the United Kingdom. A week later I started a new position as a Senior Software Engineer within the Cloud Platform team at [Condé Nast International](https://condenastinternational.com). My partner had relocated to Cambridge, UK at the beginning of March 2018 after accepting a fully-funded PhD position at the [Cancer Research UK](https://www.cancerresearchuk.org/) Cambridge Institute researching Cancer Biology. I stayed in Perth to organise our affairs and prepare for what would be at least a 4 year adventure on the other side of the world.
 
-I'm sure it won't surprise most people to hear that; in addition to shipping all of our belongings, organising the relocation of our dog, selling cars and furniture we weren't taking with us, and a host of other things; that an important item on the relocation checklist was ensuring I had a job lined up when I arrived (rather than risk the possibility that I would struggle to find one after moving). The purpose of this blog post is to describe the methodology used to find a job, and how my priorities changed over time. It should go without saying that a lof of the decisions I made, and what I considered important when selecting a job and company is personal preference, but hopefully you manage to take away something valuable anyway.
+I'm sure it won't surprise most people to hear that in addition to shipping all of our belongings, organising the relocation of our dog, selling cars and furniture we weren't taking with us, and a host of other things; an important item on the relocation checklist was ensuring I had a job lined up when I arrived (rather than risk the possibility that I would struggle to find one after moving). The purpose of this blog post is to describe the methodology used to find a job, and how my priorities changed over time. It should go without saying that a lof of the decisions I made, and what I considered important when selecting a job and company is personal preference, but hopefully you manage to take away something valuable anyway.
 
 ## An Opportunity Arises
 
@@ -39,7 +39,7 @@ What this all meant was that I was incredibily lucky to have an opportunity to t
 
 Over the 5 weeks I spent interviewing I spoke with a total of 39 companies, or should I say - I remembered to keep records of interviewing with 39 companies. It's worth noting that I may have missed a few companies, and I didn't keep a record of every time I spoke with a new recruiter.
 
-Of those 39, I declined to continue with 20. This was for a range of reasons, including salary, culture, thoughts and focus on diversity, or location - more on this later in the post. 8 companies declined to progress with my application; 6 "ghosted" me, which in this context means that I never heard from them again after an interview (and in most cases even after I attempted to follow-up); and finally - I received 5 official offers.
+Of those 39 I declined to continue with 20. This was for a range of reasons - including salary, culture, thoughts and focus on diversity, or location (more on this later). 8 companies declined to progress with my application; 6 "ghosted" me, which in this context means that I never heard from them again after an interview (and in most cases even after I attempted to follow-up); and finally - I received 5 official offers.
 
 ![Company Interview Progression](/images/2019/05/interview-progression.png"Company Progession Over the 5 Weeks")
 
@@ -49,7 +49,7 @@ In total I participated in at least 79 interviews (again, add a couple I might h
 
 For the most part I applied and interviewed for Senior DevOps Engineer roles (NB: I've lumped 'Principal Engineer' in with Senior Engineer), and SRE roles.
 
-Almost a quarter were "lead" level roles which would have involded having direct reports, those that know me will also know that I'm not a huge fan of the management pathway - therefore I placed extra importance on the amount of engineering work these roles would involve. In the end I only chose to progress with one lead level role to the final round, and eventually turned down an offer for that role.
+Almost a quarter were "lead" level roles which would have involved having direct reports, those that know me will also know that I'm not a huge fan of the management pathway - therefore I placed extra importance on the amount of engineering work these roles would involve. In the end I only chose to progress with one lead level role to the final round, and eventually turned down an offer for that role.
 
 I've never been a huge fan of the DevOps as a title trend that is currently happening, but I also understand that it's a direction the industry has chosen to take - as such I have a basic principle when evaluating a role:
 
@@ -98,7 +98,7 @@ When I started this process I thought I had a pretty clear idea of what I was lo
 2. Salary actually wasn't as important to me as I thought.
 3. I was limiting myself severly by not including London jobs in my search.
 
-I decided to extend my search to include London companies, and in the process found myself with a new set of priorities. Flexible working, such as working from home days and flexible hours; and company culture, such as opportunities for personal growth and how well I got along with the team, replaced my previous priorities.
+I decided to extend my search to include London companies, and in the process found myself with a new set of priorities. Flexible working; such as working from home days and flexible hours, and company culture; such as opportunities for personal growth and how well I got along with the team; replaced my previous priorities.
 
 Most importantly though - I started asking companies how they approached diversity and inclusion. Did they consider diversity and inclusion an important part of building a great company? How well were different backgrounds represented within their tech teams? What, if anything, were they doing to improve diversity and become a more inclusive company? The answers to these questions will tell you a lot about what the company prioritises, which (in my experience) translates quite well to how they treat their employees in general. In the end it turns out the only company to ask **me** these questions first was the company that I accepted an offer from.
 
