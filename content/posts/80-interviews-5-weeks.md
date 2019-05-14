@@ -5,6 +5,8 @@ slug: "80-interviews-across-planet"
 title: "80 Interviews From Across The Planet"
 description: "The logistics and lessons learnt while interviewing for nearly 40 companies over 5 weeks from across the globe."
 featured_image: "/images/featured/interviews.png"
+images:
+  - "/images/featured/interviews.png"
 categories: ["Career Advice"]
 tags: [
     "Relocation",
