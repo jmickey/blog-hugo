@@ -63,12 +63,6 @@
     </div>
 
     <div class="post-copyright">
-            {{ with .Site.Params.author }}
-            <p class="copyright-item">
-                <span>{{ i18n "Author" }}:</span>
-                <span>{{ . }} </span>
-                </p>
-            {{ end }}
 
             <p class="copyright-item">
                     <span>{{ i18n "Words" }}:</span>
@@ -92,13 +86,12 @@
 
     <div class="post-tags">
         {{ with .Params.tags }}
-            <section>
-            <i class="iconfont icon-icon-tag"></i>{{ i18n "Tag" }}:
+        <section>
+            <i class="iconfont icon-icon-tag"></i>
             {{ range . }}
-            <span class="tag"><a href="{{ "tags/" | absURL }}{{ . | urlize }}/">
-                    #{{.}}</a></span>
+            &nbsp;&nbsp;<span class="tag"><a href="{{ "tags/" | absURL }}{{ . | urlize }}/">{{.}}</a></span>
             {{ end }}
-            </section>
+        </section>
         {{ end }}
         <section>
                 <a href="javascript:window.history.back();">{{ i18n "back" }}</a></span> ·
