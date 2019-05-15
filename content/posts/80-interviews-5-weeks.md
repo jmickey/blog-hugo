@@ -53,7 +53,10 @@ Almost a quarter were "lead" level roles which would have involved having direct
 
 I've never been a huge fan of the DevOps as a title trend that is currently happening, but I also understand that it's a direction the industry has chosen to take - as such I have a basic principle when evaluating a role:
 
-<blockquote cite="Me">No matter the title of the role advertised my choice to progress with a role was always primarily influenced by the responsiblities of the role as told by the company.</blockquote>
+<blockquote>No matter the title of the role advertised my choice to progress with a role was always primarily influenced by the responsiblities of the role as told by the company. 
+<span itemscope itemtype="http://schema.org/Person" class="cite">
+  <span itemprop="author name">Me</span>
+</span></blockquote>
 
 It doesn't take long to filter out companies that aren't taking DevOps culture seriously, as long as you're asking the right questions (more on this later).
 

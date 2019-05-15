@@ -116,12 +116,12 @@
        }
     }
 
-    &:after {
-      content: attr(cite);
+    & > .cite {
       padding-bottom: 5px;
       display: block;
       text-align: right;
       font-size: 0.875em;
+      font-style: normal;
       color: $light-post-link-color;
 
        .dark-theme &{

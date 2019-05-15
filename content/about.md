@@ -3,7 +3,10 @@ title: About
 weight: -270
 ---
 
-> 90 percent of tech is tribalism and fashion. --<cite>[Andrew Clay Shafer](https://twitter.com/littleidea)</cite>
+<blockquote> 90 percent of tech is tribalism and fashion. 
+<span itemscope itemtype="http://schema.org/Person" class="cite">
+  <span itemprop="author name"><a href="https://twitter.com/littleidea">Andrew Clay Shafer</a></span>
+</span></blockquote>
 
 # Hi there!
 

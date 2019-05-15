@@ -21,7 +21,10 @@ According to [research by Indeed.com](http://blog.indeed.com/2016/08/18/what-are
 
 During his time as Head of Operations at Puppet Labs, Kelsey Hightower described DevOps engineers as the "special forces" of an organisation, going on to say:
 
-<blockquote cite="Kelsey Hightower"> The DevOps engineer encapsulates depth of knowledge and years of hands on experience. You're battle tested. This person blends the skills of the business analyst with the technical chops to build the solution - plus they know the business well, and can look at how any issue affects the entire company.</blockquote>
+<blockquote> The DevOps engineer encapsulates depth of knowledge and years of hands on experience. You're battle tested. This person blends the skills of the business analyst with the technical chops to build the solution - plus they know the business well, and can look at how any issue affects the entire company.
+<span itemscope itemtype="http://schema.org/Person" class="cite">
+  <span itemprop="author name"><a href="https://puppet.com/blog/what-a-devops-engineer">Kelsey Hightower</a></span>
+</span></blockquote>
 
 Now, it would be far too self-indulgent of me to say that I accurately fit this description, but it does help provide context as to the level of seniority and technical skills a DevOps engineer is expected to possess. They require both breadth and depth of knowledge spanning multiple business domains, including systems administration, software development, quality assurance, and business analysis. Now, let's take a look at the core skillset:
 
