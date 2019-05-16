@@ -1,4 +1,5 @@
 <footer class="footer">
+    <div class="footer-social"> Get in touch: {{ partial "social.html" . }} </div>
     <div class="copyright">
         &copy;
         {{ with .Site.Params.since }}
@@ -8,7 +9,7 @@
             <span class="author" itemprop="copyrightHolder"><a href="{{ .Site.BaseURL }}">{{ .Site.Params.author  }}</a> | </span>
          {{ end }}
 
-		  <span>Crafted with ❤️ by <a href="https://github.com/Fastbyte01/KeepIt" target="_blank" rel="external nofollow noopener noreffer">KeepIt</a> & <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a></span>
+          <span>🛠️ with <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a> | Based on <a href="https://github.com/Fastbyte01/KeepIt" target="_blank" rel="external nofollow noopener noreffer">KeepIt</a></span>
     </div>
 </footer>
 
