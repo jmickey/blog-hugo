@@ -5,4 +5,5 @@
 /github/* https://github.com/jaymickey/:splat
 /linkedin https://linkedin.com/in/jmichielsen
 /keybase https://keybase.io/jmickey
+/speakerdeck/* https://speakerdeck.com/jmickey/:splat
 /emailme mailto:j@mickey.dev
