@@ -28,7 +28,6 @@ In this session I explore the basics of distributed tracing. I then take a look 
 KIND - Kubernetes IN Docker - is a relatively new tool for running Kubernetes clusters within Docker. KIND enables engineers to spin up local development cluster in under a minute, utilising Docker containers as "nodes". KIND was originally born as a method of running conformance tests for the Kubernetes project itself, and has quickly gained in popularity within the community thanks to its fast startup time, ease of use, and growing feature set. In this talk I will briefly look at how KIND differs from other local cluster tools, discuss a range of possible use-cases for KIND - both for local development and within CI/CD pipelines, and finally demonstrate how you can get starting using KIND.
 
 ### Recording
-
 [![YouTube Placeholder Image](/images/2019/08/kind-talk-placeholder.png)](https://www.youtube.com/watch?v=D5ULwbER7PA&start=4800)
 
 ## Lessons Learnt: Over 70 Interviews in Just 5 Weeks
@@ -41,7 +40,7 @@ KIND - Kubernetes IN Docker - is a relatively new tool for running Kubernetes cl
 
 ### Recording
 
-<div style="position:relative;padding-top:56.25%;">
+<div style="position:relative;padding-top:56.25%;margin-top:1em;">
     <iframe src="https://www.youtube.com/embed/wCfxY9HVkoU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
 </div>
 
