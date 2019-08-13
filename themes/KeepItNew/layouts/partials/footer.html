@@ -1,6 +1,6 @@
 <footer class="footer">
     <div class="footer-social"> Get in touch: {{ partial "social.html" . }} </div>
-    <div class="copyright">
+    <div class="copyright" itemscope>
         &copy;
         {{ with .Site.Params.since }}
         <span itemprop="copyrightYear">{{.}} - {{ now.Year }}</span>
