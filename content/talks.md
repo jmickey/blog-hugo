@@ -19,6 +19,18 @@ In this session I explore the basics of distributed tracing. I then take a look 
 
 [Video Coming]
 
+## Killing Bugs with KINDness - Kubernetes in CI with K8s in Docker (KIND)
+
+**Presented:** [Docker London](https://docker.london) (July 2019)
+
+**[Slides](https://speakerdeck.com/jmickey/kubernetes-in-docker-killing-bugs-with-kindness)**
+
+KIND - Kubernetes IN Docker - is a relatively new tool for running Kubernetes clusters within Docker. KIND enables engineers to spin up local development cluster in under a minute, utilising Docker containers as "nodes". KIND was originally born as a method of running conformance tests for the Kubernetes project itself, and has quickly gained in popularity within the community thanks to its fast startup time, ease of use, and growing feature set. In this talk I will briefly look at how KIND differs from other local cluster tools, discuss a range of possible use-cases for KIND - both for local development and within CI/CD pipelines, and finally demonstrate how you can get starting using KIND.
+
+### Recording
+
+[![YouTube Placeholder Image](/images/2019/08/kind-talk-placeholder.png)](https://www.youtube.com/watch?v=D5ULwbER7PA&start=4800)
+
 ## Lessons Learnt: Over 70 Interviews in Just 5 Weeks
 **Presented:** [Fenders Perth](https://www.fenders.co/) (November 2018)
 
@@ -26,6 +38,8 @@ In this session I explore the basics of distributed tracing. I then take a look 
 **[Blog Post](/posts/80-interviews-across-planet/)**
 
 5 weeks, 39 unique companies, and over 70 remote interviews. In this talk Josh will be sharing some of the lessons he learnt, and mistakes he made while searching for a job in the UK. He will present some interesting data on the interviews, discuss what he did right and wrong, the pain points he suffered, what he enjoyed, and finally - offers some advice for hiring managers and job seekers alike.
+
+### Recording
 
 <div style="position:relative;padding-top:56.25%;">
     <iframe src="https://www.youtube.com/embed/wCfxY9HVkoU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
