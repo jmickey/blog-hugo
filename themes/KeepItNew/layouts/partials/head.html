@@ -32,8 +32,7 @@
   <meta name="title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else if .Params.heading }}{{ .Params.heading }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end}}">
   {{ partial "css" . }}
   {{ with .OutputFormats.Get "RSS" }}
-  <link rel="alternate" href="{{ .RelPermalink }}" type="application/rss+xml" title="{{ site.Title }}">
-  <link rel="feed" href="{{ .RelPermalink }}" type="application/rss+xml" title="{{ site.Title }}">
+  <link rel="{{ .Rel }}"" href="{{ .RelPermalink }}" type="application/rss+xml" title="{{ site.Title }}">
   {{ end }}
   {{- template "_internal/twitter_cards.html" . }}
   {{ partial "seo_schema" . }}
@@ -42,7 +41,7 @@
   {{ if eq ( getenv "HUGO_ENV" ) "production" }}
           {{ with .Site.Params.cdn_url }}
               {{ $cdn_url = .}}
-           {{ end }}   
+           {{ end }}
   {{ end  }}
 {{ .Scratch.Set "cdn_url" $cdn_url }}
 

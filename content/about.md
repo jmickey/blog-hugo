@@ -20,7 +20,5 @@ I love [cycling](https://www.strava.com/athletes/32368360), photography, and wal
 
 ![My adorable orange Shiba Inu!](/images/2019/05/puppy-images.png)
 
-Finally, I'm going to be partaking in the 87km (54 miles) [2019 London to Brighton](https://www.bhf.org.uk/how-you-can-help/events/london-to-brighton-bike-ride) ride for the [British Heart Foundation](https://www.bhf.org.uk). If you would like to show your support through a donation please [click here](https://www.justgiving.com/fundraising/jmickey), it would be greatly appreciated!
-
 ## Thanks for Visiting!
 
