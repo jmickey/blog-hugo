@@ -47,6 +47,11 @@ googleAnalytics = "UA-140141781-1"
     url = "/about"
     weight = 2
 
+  [[menu.main]]
+    name = "Talks"
+    url = "/talks"
+    weight = 3
+
 [params]
   author = "Josh Michielsen"
   subtitle = "Senior Platform Engineer @ Condé Nast International"
