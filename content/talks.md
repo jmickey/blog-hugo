@@ -3,12 +3,15 @@ title: Talks
 weight: -270
 ---
 
-# Talks
-
 Occasionally I give talks at meetups or conferences. A full history of my talks in the form of slides can be found on [SpeakerDeck](https://mickey.dev/speakerdeck). Below is a list of the most recent talks I've given, along with any video recordings.
 
+**Coming Up:**
+
+- Rapid API Development in Go (DDD East Anglia)
+- Utilising OSS to Operate a Centralised, Globally Distributed Cloud Platform (Open Source Summit)
+
 ## Finding a Needle in a Call Stack - Intro to Distributed Tracing
-**Presented:** DDD Perth - August 2019
+**Presented:** [DDD Perth](https://dddperth.com/) (August 2019), [Cloud Native London Conf](https://skillsmatter.com/conferences/11723-cloudnative-london-2019) (Sept 2019)
 
 **[Slides](https://speakerdeck.com/jmickey/finding-a-needle-in-a-call-stack-intro-to-distributed-tracing)**
 
@@ -17,7 +20,7 @@ In this session I explore the basics of distributed tracing. I then take a look 
 [Video Coming]
 
 ## Lessons Learnt: Over 70 Interviews in Just 5 Weeks
-**Presented:** Fenders Perth - November 2018
+**Presented:** [Fenders Perth](https://www.fenders.co/) (November 2018)
 
 **[Slides](https://speakerdeck.com/jmickey/lessons-learnt-over-70-interviews-in-just-5-weeks)** |
 **[Blog Post](/posts/80-interviews-across-planet/)**
@@ -30,7 +33,7 @@ In this session I explore the basics of distributed tracing. I then take a look 
 
 ## Introduction to Terraform
 
-**Prensented:** Python & Django Meetup Perth - March 2018
+**Prensented:** [Python & Django Meetup Perth](https://www.meetup.com/Perth-Django-Users-Group/) (March 2018)
 
 **[Slides](https://speakerdeck.com/jmickey/introduction-to-terraform)**
 
