@@ -2,7 +2,7 @@
 /cncamb-meetup https://www.meetup.com/Cloud-Native-Cambridge
 /cncam-speak https://forms.gle/BK1gvWP99d6XibsK9
 /twitter https://twitter.com/jmickey_
-/github/* https://github.com/jaymickey/:splat
+/github/* https://github.com/jmickey/:splat
 /linkedin https://linkedin.com/in/jmichielsen
 /keybase https://keybase.io/jmickey
 /speakerdeck/* https://speakerdeck.com/jmickey/:splat
