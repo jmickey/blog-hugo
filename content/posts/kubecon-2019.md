@@ -2,7 +2,7 @@
 date: "2019-09-09"
 authors: ["jmickey"]
 slug: "kubecon-2019"
-title: "KubeCon & CloudNativeCon 2019"
+title: "KubeCon & CloudNativeCon EU 2019 Recap"
 description: "My first KubeCon experience, and the takeaways from the conference."
 featured_image: "/images/featured/barcelona-hero-image.jpg"
 images:
@@ -39,7 +39,7 @@ From what I could gather in my conversations with many other attendees - service
 
 #### Service Mesh Interface
 
-They might not have to wait very long though, as one of the key announcements out of KubeCon & CloudNativeCon this year was [**Service Mesh Interface** (SMI)](https://smi-spec.io/). SMI is a joint effort by some big names including Microsoft, Linkerd, Hashicrop, Red Hat, and VMware (among many others) to provide a standard interface specification (similar to OpenTracing and Open Policy Agent) for service mesh products running on Kubernetes. 
+They might not have to wait very long though, as one of the key announcements out of KubeCon & CloudNativeCon this year was [**Service Mesh Interface** (SMI)](https://smi-spec.io/). SMI is a joint effort by some big names including Microsoft, Linkerd, Hashicorp, Red Hat, and VMware (among many others) to provide a standard interface specification (similar to OpenTracing and Open Policy Agent) for service mesh products running on Kubernetes. 
 
 SMI aims to deliver a basic set of standard APIs that all service mesh products will implement, allowing teams to change service mesh products within their clusters without the fear of losing essential functionality (or having to make complex changes to the way they use the service mesh product). Linkerd has already annouced they are working on implementing SMI. I've yet to see an official announcement from Istio, however there is an open issue [here](https://github.com/istio/istio/issues/14288). The announcement video for Service Mesh Interface is below:
 
@@ -57,7 +57,7 @@ Work has already begun to create a new set of API client projects that will prov
 
 #### Fluent Bit
 
-The next big announcement was from the creators of [Fluentd](https://www.fluentd.org/), with a new product called [**Fluent Bit**](https://fluentbit.io/). Fluent Bit, like Fluentd, is a pluggable log processor and forwarder but with a focus on performance. It currently supports over 30 plugins (versus ~650 available for Fluentd). Unlike Fluentd, Fluent Bit is written in C making it much more performant then its sibling.
+The next big announcement was from the creators of [Fluentd](https://www.fluentd.org/), with a new product called [**Fluent Bit**](https://fluentbit.io/). Fluent Bit, like Fluentd, is a pluggable log processor and forwarder but with a focus on performance. It currently supports over 30 plugins (versus ~650 available for Fluentd). Unlike Fluentd however, Fluent Bit is written in C making it much more performant than its sibling.
 
 Already there is a lot of talk of how teams can take advantage of the performance and size of Fluent Bit, with one interesting **take away** from the conference being the ability to utilise Fluent Bit within a Kubernetes cluster to collect, process, and forward logs from individual applications within the cluster into a centralised instance of Fluentd, where additional (less performance orientated) processing takes place.
 
@@ -65,13 +65,13 @@ Already there is a lot of talk of how teams can take advantage of the performanc
 
 I noticed that [Prometheus](https://prometheus.io/), a Cloud Native Computing Foundation (CNCF) owned project that focuses on the collection and aggregation of time-series metrics, got a lot of air-time this year. While there were no significant announcements regarding the project, a number of talks were focused on how different companies use and operate their Prometheus installations. Additionally, the number of projects that support Prometheus exporters continues to grow!
 
-Of note however, is the introduction of projects designed to make the Prometheus experience easier on both developers and operators. With one such project, [Thanos](https://thanos.io) [GitHub](https://github.com/thanos-io/thanos), looking particularly interesting. Thanos allows teams to create highly available Prometheus offerings within their clusters, providing aggregation of metrics from multiple instances of Prometheus which can then be queries in a global query view, along with cost-efficient long term storage capabilities (e.g. AWS S3). Thanos is still in pre-1.0 development, but is already being used in production by a number of companies! **Definitely recommend taking a look!**
+Of note however, is the introduction of projects designed to make the Prometheus experience easier on both developers and operators. With one such project, [Thanos](https://thanos.io) ([GitHub](https://github.com/thanos-io/thanos)), looking particularly interesting. Thanos allows teams to create highly available Prometheus offerings within their clusters, providing aggregation of metrics from multiple instances of Prometheus which can then be queried in a global query view, along with cost-efficient long term storage capabilities (e.g. AWS S3). Thanos is still in pre-1.0 development, but is already being used in production by a number of companies! **Definitely recommend taking a look!**
 
 ### Cluster API
 
 [Cluster API](https://github.com/kubernetes-sigs/cluster-api) is a fairly new (currently in v1alpha2) Kubernetes project that provides a declarative, Kubernetes-native API to support cluster provisioning, configuration, and management. It allows for the creation and configuration of Kubernetes clusters via an existing cluster, including those that you would spin up via [minikube](https://github.com/kubernetes/minikube) or [kind](https://github.com/kubernetes-sigs/kind).
 
-Prior to KubeCon I had not heard of Cluster API, but after a quick keynote by Joe Beda introducing the project, **I'm very keen to see how this project developers**, and will be keeping a close eye on it as a replacement to existing cluster bootstrapping projects such as kubeadm or kops.
+Prior to KubeCon I had not heard of Cluster API, but after a quick keynote by Joe Beda introducing the project, **I'm very keen to see how this project develops**, and will be keeping a close eye on it as a replacement to existing cluster bootstrapping projects such as kubeadm or kops.
 
 ## Favourite Talks
 
