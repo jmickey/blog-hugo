@@ -35,7 +35,7 @@ googleAnalytics = "UA-140141781-1"
 
 [Permalinks]
  posts = "/posts/:slug"
- code = "/:filename"
+ code = "/go/:filename"
 
  [menu]
   [[menu.main]]
