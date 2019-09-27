@@ -34,24 +34,24 @@ googleAnalytics = "UA-140141781-1"
     height = 600
 
 [Permalinks]
- posts = "/posts/:slug"
- code = "/go/:filename"
+  posts = "/posts/:slug"
+  code = "/go/:filename"
 
- [menu]
-  [[menu.main]]
-    name = "Blog"
-    url = "/posts/"
-    weight = 1
+  [menu]
+    [[menu.main]]
+      name = "Blog"
+      url = "/posts/"
+      weight = 1
 
-  [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 2
+    [[menu.main]]
+      name = "About"
+      url = "/about"
+      weight = 2
 
-  [[menu.main]]
-    name = "Talks"
-    url = "/talks"
-    weight = 3
+    [[menu.main]]
+      name = "Talks"
+      url = "/talks"
+      weight = 3
 
 [params]
   author = "Josh Michielsen"

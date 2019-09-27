@@ -3,11 +3,17 @@ title: Talks
 weight: -270
 ---
 
-Occasionally I give talks at meetups or conferences. A full history of my talks in the form of slides can be found on [SpeakerDeck](https://mickey.dev/speakerdeck). Below is a list of the most recent talks I've given, along with any video recordings.
+Occasionally I give talks at meetups or conferences. A full history of my talks in the form of slides can be found on [SpeakerDeck](https://mickey.dev/speakerdeck). Below is a list of the most recent talks I've given, along with any video recordings that might exist.
 
-**Coming Up:**
+## Rapid API Development in Go
+**Presented:** [DDD East Anglia](https://dddeastanglia.com) (September 2019)  
+**[Slides](https://speakerdeck.com/jmickey/rapid-api-development-in-go)** | **[Code Samples](https://github.com/jmickey/go-code-samples)**
 
-- Rapid API Development in Go (DDD East Anglia)
+The Go programming language is a statically typed, compiled programming language designed at Google that was released in 2009. It grew quickly in popularity - holding a top 5 position in the most loved programming languages in the Stack Overflow developer survey for 5 consecutive years, and in 2018 was the fastest growing language on GitHub.
+
+Much of Go's popularity can easily be attributed to it's clear and concise syntax, simple concurrency model, strong built-in tooling, and its ability to be easily compiled into a single statically linked binary. However, to me Go's greatest strength is its robust, "batteries included" standard library, which allows developers to rapidly build production ready applications with little to no external dependencies.
+
+In this talk I will provide a brief overview of the Go programming language, and demonstrate how Go can be utilised to rapidly build production ready APIs with just the standard library - HTTP(S) server and all. Finally I will provide a brief demo of a simple API workflow, and talk about some small libraries and tools that can be used to improve the development process and general quality of life.
 
 ## Utilising OSS to Operate a Centralised, Globally Distributed Cloud Platform
 **Presented:** [Cloud Native London Meetup](https://meetup.com/Cloud-Native-London) (September 2019)  
