@@ -47,6 +47,10 @@
         h6 {
             padding-top: .8em;
             padding-bottom: .3em;
+
+            code {
+                font-size: inherit;
+            }
         }
         h2::before {
             content: "#";
@@ -78,18 +82,23 @@
             color: $light-post-link-hover-color;
             .dark-theme &:hover {
                 color: $dark-post-link-hover-color;
-                font-weight: bold;
                 text-decoration: underline;
             }
+        }
+
+        .prettyprint {
+            padding: 1.2em;
+            border-radius: 8px;
         }
 
         code,
         pre {
             padding: 2px;
-            font-size: 13px;
+            font-size: 1em;
             font-family: Consolas, Monaco, Menlo, Consolas, monospace;
             word-break: break-all;
             word-wrap: break-word;
+            border-radius: 4px;
         }
 
         code:not([class]) {
