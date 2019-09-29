@@ -13,7 +13,7 @@
             padding: 0;
             margin: 0;
             height: 5em;
-            line-height: 5.5em;
+            line-height: 5em;
             background: $light-nav-background-color;
 
             .navbar-header {
@@ -26,10 +26,14 @@
                 box-sizing: border-box;
                 background: $light-nav-background-color;
 
+                .dark-theme & {
+                    background: $dark-nav-background-color
+                }
+
 
                 .menu-toggle {
                     cursor: pointer;
-                    line-height: 5.5em;
+                    line-height: 5em;
 
                     span {
                         display: block;
@@ -100,12 +104,9 @@
                 }
 
                 .dark-theme & {
-                    background: $dark-background-color;
+                    background: $dark-nav-background-color;
                     border-top: 2px solid $dark-font-secondary-color;
                 }
-            }
-            .dark-theme & {
-                background: $dark-background-color !important;
             }
         }
     }

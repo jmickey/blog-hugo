@@ -1,6 +1,8 @@
 .chroma {
     /* Background */
     background-color: $light-code-bg-color;
+    overflow: auto;
+
     .code {
         padding: 1em;
     }
