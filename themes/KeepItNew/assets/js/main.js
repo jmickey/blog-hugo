@@ -4,11 +4,6 @@ jQuery(function ($) {
 
     var _Blog = window._Blog || {};
 
-    _Blog.prettify = function () {
-        $('pre').addClass('prettyprint').attr('style', 'overflow:auto;');
-        window.prettyPrint && prettyPrint();
-    };
-
     _Blog.externalUrl = function () {
         $.expr[':'].external = function (obj) {
             return !obj.href.match(/^mailto\:/) &&
@@ -48,7 +43,6 @@ jQuery(function ($) {
     }
 
     $(document).ready(function () {
-        _Blog.prettify()
         _Blog.changeTitle()
         _Blog.toggleTheme()
         _Blog.toggleMobileMenu()

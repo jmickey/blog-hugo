@@ -8,6 +8,8 @@ defaultContentLanguage = "en"
 Paginate = 10
 preserveTaxonomyNames = true
 googleAnalytics = "UA-140141781-1"
+pygmentsUseClasses = true
+pygmentsCodefences = true
 
 [blackfriday]
   hrefTargetBlank = true
@@ -74,6 +76,9 @@ googleAnalytics = "UA-140141781-1"
 [params.share]
   Twitter = true
   Linkedin = true
+  Reddit = true
+  HackerNews = true
+  Facebook = true
 
 [languages]
   [languages.en]

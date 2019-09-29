@@ -54,10 +54,7 @@ KIND - Kubernetes IN Docker - is a relatively new tool for running Kubernetes cl
 
 ### Recording
 
-<div style="position:relative;padding-top:56.25%;margin-top:1em;">
-    <iframe src="https://www.youtube.com/embed/wCfxY9HVkoU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-</div>
-
+{{< youtube wCfxY9HVkoU >}}
 
 ## Introduction to Terraform
 

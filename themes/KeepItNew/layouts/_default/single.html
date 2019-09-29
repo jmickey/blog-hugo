@@ -56,7 +56,7 @@
           {{ $altContent := .Content | replaceRE $reAltIn $reAltOut | safeHTML }}
 
           {{ $reAltTitleIn := "<img src=\"([^\"]+)\" alt=\"([^\"]+)?\" title=\"([^\"]+)?\" />" }}
-          {{ $reAltTitleOut := ( printf "<figure><img src=\"/images/ring.svg\" data-src=\"%s$1\" data-sizes=\"auto\" alt=\"$2\" title=\"$3\" class=\"lazyload\"><figcaption class=\"image-caption\">$3</figcaption></figure>" $cdn_url ) }}
+          {{ $reAltTitleOut := ( printf "<figure><div class=\"img-container\"><img src=\"/images/ring.svg\" data-src=\"%s$1\" data-sizes=\"auto\" alt=\"$2\" title=\"$3\" class=\"lazyload\"></div><figcaption class=\"image-caption\">$3</figcaption></figure>" $cdn_url ) }}
           {{ $finalContent := $altContent | replaceRE $reAltTitleIn $reAltTitleOut | safeHTML }}
 
           {{ $finalContent }}
