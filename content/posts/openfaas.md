@@ -72,7 +72,7 @@ cd faas
 
 {{% tip class="info" %}}**Note:** The `--no-auth` argument will allow you to interact with the faas stack without worrying about authentication, **do not** do this in production. {{% /tip %}}
 
-Once the deployment is complete open a browser and naviage to [http://localhost:8080](http://localhost:8080) to load the UI.
+Once the deployment is complete open a browser and navigate to [http://localhost:8080](http://localhost:8080) to load the UI.
 
 ![The OpenFaaS Dashboard](/images/2019/09/openfaas-local-dashboard.png"The OpenFaaS Local Dashboard")
 
@@ -211,3 +211,58 @@ Once the deployment is completed navigate to the OpenFaaS UI in your browser ([h
 
 ## Deploy to the OpenFaaS Community Cluster
 
+To begin using the OpenFaaS Community Cluster you'll need to [read the Terms & Conditions](https://github.com/openfaas/openfaas-cloud/blob/master/PRIVACY.md) and apply for access via [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfc3KU5FfEd1Omtddq8Xqs2UGxarHiHbZhFKqy9TynHnhOCVQ/viewform). Once your access has been approved then continue to follow the instructions on [this page](https://github.com/openfaas/community-cluster/tree/master/docs#quick-start-5-10-minutes).
+
+Once your PR to the `[CUSTOMERS](https://github.com/openfaas/openfaas-cloud/blob/master/CUSTOMERS)` file has been merged create a new GitHub repo called `openfaas-functions` and add the [Community Cluster GitHub App](https://github.com/apps/openfaas-cloud-community-cluster) and select the `openfaas-functions` repository.
+
+![OpenFaaS GitHub app installation](/images/2019/09/openfaas-app-install.png"OpenFaaS Community Cluster GitHub App Installation")
+
+Return to your terminal, ensuring your in your `openfaas-functions` folder. You'll need to run a few commands before pushing the code to GitHub:
+
+```bash
+# Rename your .yml file to stack.yml
+mv helloworld-go-http.yml stack.yml
+
+# Init the local repo
+git init
+# Commit the files
+git add -A && git commit -m "First function commit"
+# Add the rempte repository
+git remote add origin https://github.com/<your-github-username>/openfaas-functions.git
+# Push to the remote repo!
+git push origin master
+```
+
+Navigate back to your GitHub repo and should see an orange dot indicator next to the latest commit information signifying that a task is being run:
+
+![GitHub Task Indicator - Pending](/images/2019/09/openfaas-github-pending.png"The GitHub Task Indicator - Pending")
+It will change to a green tick once the tasks are completed:
+![GitHub Task Indicator - Completed](/images/2019/09/openfaas-github-complete.png"The GitHub Task Indicator - Completed")
+
+Clicking the indicator will display a summary of the tasks that have been run and their respective statuses:
+
+![GitHub Tasks List](/images/2019/09/openfaas-tasks-status.png"GitHub Tasks Summary")
+
+Click "Details" next to `helloworld-go-http`. This page will display build logs and a public link in which you can invoke the function in the form of `https://<github-username>.o6s.io/<function-name>`. Test the function via `curl`:
+
+```bash
+curl -d "World" https://<github-username>.o6s.io/<function-name>
+```
+
+You've now successfully deployed your first function to the OpenFaaS Community Cluster!
+
+### Community Cluster Dashboard
+
+The community cluster also comes with a built-in dashboard that displays read-only stats for your deployed functions. The dashboard address is:
+
+```noop
+https://system.o6s.io/dashboard/<github-username>
+```
+
+{{% tip class="info" %}}You'll need to authorise the OAuth login via GitHub before you can view the community cluster dashboard{{% /tip %}}
+
+This post won't go into finer details of the dashboard, but I encourage you to have a look around, and refer to [the OpenFaaS Cloud docs](https://docs.openfaas.com/openfaas-cloud/user-guide/) if you want more information!
+
+## Thanks!
+
+Thanks for reading this tutorial on getting started with OpenFaaS. I hope you found it helpful, and feel free to get [in touch](mailto:j@mickey.dev) if you have any questions!
