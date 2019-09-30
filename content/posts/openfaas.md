@@ -1,5 +1,5 @@
 ---
-date: "2019-09-27"
+date: "2019-09-30"
 authors: ["jmickey"]
 slug: "getting-started-with-openfaas"
 title: "Getting Started with OpenFaaS and the OpenFaaS Community Cluster"
