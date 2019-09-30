@@ -34,7 +34,7 @@ You'll need the following in order to follow along with this tutorial:
 
 ## Install OpenFaaS
 
-To deploy and test your functions locally, you'll need to run an instance of the OpenFaaS gateway, along with a back-end provider, on your local machine. The simplest way to do this is via `[k3d](https://github.com/rancher/k3d)`, a lightweight Kubernetes distribution that runs in a single container on your local machine. To install `k3d` run:
+To deploy and test your functions locally, you'll need to run an instance of the OpenFaaS gateway, along with a back-end provider, on your local machine. The simplest way to do this is via [`k3d`](https://github.com/rancher/k3d), a lightweight Kubernetes distribution that runs in a single container on your local machine. To install `k3d` run:
 
 ```bash
 curl -s https://raw.githubusercontent.com/rancher/k3d/master/install.sh | bash
