@@ -3,7 +3,7 @@ date: "2019-09-27"
 authors: ["jmickey"]
 slug: "getting-started-with-openfaas"
 title: "Getting Started with OpenFaaS and the OpenFaaS Community Cluster"
-description: "OpenFaaS is a highly portable Serverless platform for Docker and Kubenretes with a focus on developer experience!"
+description: "OpenFaaS is a highly portable Serverless platform for Docker and Kubernetes with a focus on developer experience!"
 featured_image: "/images/featured/openfaas-banner.png"
 images:
   - "/images/featured/openfaas-banner.png"
