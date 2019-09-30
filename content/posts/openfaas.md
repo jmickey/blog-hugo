@@ -250,11 +250,56 @@ Once the deployment is completed navigate to the OpenFaaS UI in your browser ([h
 
 ![helloworld-go-http Function Invocation](/images/2019/09/helloworld-go-http-result.png"helloworld-go-http Function Invocation")
 
+## Add a Second Function
+
+OpenFaaS allows you to add additional functions to the same directory and YAML file, which means you can deploy multiple functions together. Add a second function, this time using the Nodejs template:
+
+```bash
+# Pull the nodejs template
+faas-cli template store pull node
+# Create a new function and append it to the existing YAML file
+faas-cli new helloworld-node --lang node --append helloworld-go-http.yml
+```
+
+You will now have an additional folder in your `openfaas-functions` directory called `helloworld-node`. The directory structure should look something like this:
+
+```noop
+.
+├── 
+├── helloworld-go-http
+│   └── handler.go
+├── helloworld-node
+│   ├── handler.js
+│   └── package.json
+├── helloworld-go-http.yml
+└── .gitignore
+```
+
+Your `helloworld-go-http.yml` will also have changed slightly and should look similar to this:
+
+```yaml
+version: 1.0
+provider:
+    name: openfaas
+    gateway: http://127.0.0.1:8080
+functions:
+    helloworld-go-http:
+        lang: golang-http
+        handler: ./helloworld-go-http
+        image: helloworld-go-http:latest
+    helloworld-node:
+        lang: node
+        handler: ./helloworld-node
+        image: helloworld-node:latest
+```
+
+Follow the instructions from earlier in the tutorial for deploying the functions to your local OpenFaaS cluster and notice how the dashboard has changed. Try invoking your new function!
+
 ## Deploy to the OpenFaaS Community Cluster
 
 To begin using the OpenFaaS Community Cluster you'll need to [read the Terms & Conditions](https://github.com/openfaas/openfaas-cloud/blob/master/PRIVACY.md) and apply for access via [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfc3KU5FfEd1Omtddq8Xqs2UGxarHiHbZhFKqy9TynHnhOCVQ/viewform). Once your access has been approved then continue to follow the instructions on [this page](https://github.com/openfaas/community-cluster/tree/master/docs#quick-start-5-10-minutes).
 
-Once your PR to the `[CUSTOMERS](https://github.com/openfaas/openfaas-cloud/blob/master/CUSTOMERS)` file has been merged create a new GitHub repo called `openfaas-functions` and add the [Community Cluster GitHub App](https://github.com/apps/openfaas-cloud-community-cluster) and select the `openfaas-functions` repository.
+Once your PR to the [`CUSTOMERS`](https://github.com/openfaas/openfaas-cloud/blob/master/CUSTOMERS) file has been merged create a new GitHub repo called `openfaas-functions` and add the [Community Cluster GitHub App](https://github.com/apps/openfaas-cloud-community-cluster) and select the `openfaas-functions` repository.
 
 ![OpenFaaS GitHub app installation](/images/2019/09/openfaas-app-install.png"OpenFaaS Community Cluster GitHub App Installation")
 
@@ -286,7 +331,7 @@ Clicking the indicator will display a summary of the tasks that have been run an
 
 Click "Details" next to `helloworld-go-http`. This page will display build logs and a public link in which you can invoke the function in the form of `https://<github-username>.o6s.io/<function-name>`. Test the function via `curl`:
 
-```bash
+```noop
 curl -d "World" https://<github-username>.o6s.io/<function-name>
 ```
 
@@ -302,6 +347,10 @@ https://system.o6s.io/dashboard/<github-username>
 
 {{% tip class="info" %}}You'll need to authorise the OAuth login via GitHub before you can view the community cluster dashboard{{% /tip %}}
 
+The dashboard will allow you to retrieve your endpoint link and build logs, along with displaying invocation statistics for your function.
+
+![OpenFaaS Community Cluster Dashboard Page for jmickey/helloworld-go-http](/images/2019/09/openfaas-dashboard.png"OpenFaaS Community Cluster Dashboard Page for jmickey/helloworld-go-http")
+
 This post won't go into finer details of the dashboard, but I encourage you to have a look around, and refer to [the OpenFaaS Cloud docs](https://docs.openfaas.com/openfaas-cloud/user-guide/) if you want more information!
 
 ## Cleanup
@@ -315,6 +364,13 @@ k3d delete
 
 This will kill the background `kubectl port-forward` process launched earlier, and remove the local `k3d` cluster along with all the OpenFaaS resources.
 
-## Thanks!
+## Next Steps
+
+If you've enjoyed this introduction to OpenFaaS and the OpenFaaS Community Cluster then I highly recommend these next steps:
+
+1. [Join the OpenFaaS Slack](https://goo.gl/forms/SqpLSdyzVoOboRqs1)
+2. Read the [OpenFaaS blog](https://www.openfaas.com/blog/), and checkout the [docs website](https://docs.openfaas.com/)
+3. Follow [@openfaas on Twitter](https://twitter.com/openfaas)
+4. Complete the [OpenFaaS Workshop](https://github.com/openfaas/workshop)
 
 Thanks for reading this tutorial on getting started with OpenFaaS. I hope you found it helpful, and feel free to get [in touch](mailto:j@mickey.dev) if you have any questions!
