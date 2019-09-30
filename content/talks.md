@@ -25,7 +25,7 @@ Of course, operating Cloud Native Infrastructure is more than just spinning up a
 
 ### Recording
 
-[![Placeholder image for my Cloud Native London talk on Utilising OSS to Operate a Global Cloud Platform](/images/2019/09/cloud-native-lon-oss-talk.png)](https://skillsmatter.com/skillscasts/14461-cloud-native-september)
+{{< vimeo 357924357 >}}
 
 ## Finding a Needle in a Call Stack - Intro to Distributed Tracing
 **Presented:** [DDD Perth](https://dddperth.com/) (August 2019), [Cloud Native London Conf](https://skillsmatter.com/conferences/11723-cloudnative-london-2019) (Sept 2019)  
@@ -33,7 +33,7 @@ Of course, operating Cloud Native Infrastructure is more than just spinning up a
 
 In this session I explore the basics of distributed tracing. I then take a look at the OpenTelemetry (formally OpenTracing) standard - a vendor neutral framework for distributed tracing instrumentation. Finally, I take a hands-on look at distributed tracing in action using Jaeger, a popular open source distributed tracing tool which is part of the Cloud Native Computing Foundation. By the end of this session I hope viewers will not only have a good understanding of distributed tracing, but will be equipped with the knowledge and inspiration to introduce it within their own applications.
 
-[Video Coming]
+{{< vimeo 362281812 >}}
 
 ## Killing Bugs with KINDness - Kubernetes in CI with K8s in Docker (KIND)
 
