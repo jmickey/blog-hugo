@@ -69,7 +69,7 @@ Create a password for the OpenFaaS Gateway and add it as a secret into the clust
 
 ```bash
 # Generate a random 40 character password
-PASSWORD=$(head -c 12 /dev/urandom | shasum| cut -d' ' -f1)
+export PASSWORD=$(head -c 12 /dev/urandom | shasum| cut -d' ' -f1)
 
 # Add password as a Kubernetes secret in the openfaas namespace
 kubectl -n openfaas create secret generic basic-auth \
