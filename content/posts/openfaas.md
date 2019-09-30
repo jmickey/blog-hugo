@@ -307,10 +307,11 @@ This post won't go into finer details of the dashboard, but I encourage you to h
 Cleaning up the installation of OpenFaaS running on your local machine is as simple as:
 
 ```bash
+kill $!
 k3d delete
 ```
 
-This will remove the local `k3d` cluster, along with all the OpenFaaS resources.
+This will kill the background `kubectl port-forward` process launched earlier, and remove the local `k3d` cluster along with all the OpenFaaS resources.
 
 ## Thanks!
 
