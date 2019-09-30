@@ -137,10 +137,11 @@
             text-align: center;
             .img-container {
                 margin: auto;
-                width: 95%;
+                max-width: 95%;
                 overflow: hidden;
                 border: 4px solid #eee;
                 border-radius: 8px;
+                display: table;
 
                 .dark-theme & {
                     border: 4px solid #444;
