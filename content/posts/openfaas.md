@@ -30,24 +30,64 @@ You'll need the following in order to follow along with this tutorial:
 1. Docker - Docker Desktop is [available here for Mac & Windows](https://www.docker.com/products/docker-desktop)
 2. [Git](https://git-scm.com/downloads)
 3. A terminal - Bash, Zsh etc. If you're running on Windows you can use the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10)!
+4. [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) - Available via [homebrew](https://brew.sh) on MacOS, and the Powershell Gallery on Windows. See the link for further installation instructions.
 
-## Install OpenFaaS and the `faas-cli`
+## Install OpenFaaS
 
-To deploy and test your functions locally, you'll need to run an instance of the OpenFaaS gateway, along with a back-end provider, on your local machine. The simplest way to do this is via [Docker Swarm](https://docs.docker.com/engine/swarm/) and the provided stack deployment script.
-
-Start by cloning the `https://github.com/openfaas/faas` repo:
-
-```bash
-git clone https://github.com/openfaas/faas.git
-```
-
-Then initialize Swarm mode on your Docker daemon:
+To deploy and test your functions locally, you'll need to run an instance of the OpenFaaS gateway, along with a back-end provider, on your local machine. The simplest way to do this is via `[k3d](https://github.com/rancher/k3d)`, a lightweight Kubernetes distribution that runs in a single container on your local machine. To install `k3d` run:
 
 ```bash
-docker swarm init
+curl -s https://raw.githubusercontent.com/rancher/k3d/master/install.sh | bash
 ```
 
-The next step is the installing the `faas-cli`. If you're on MacOS and already have homebrew install then installation is as simple as:
+Now create a cluster:
+
+```bash
+k3d create
+export KUBECONFIG=$(k3d get-kubeconfig)
+```
+
+To install OpenFaaS to your `k3d` cluster, start by cloning the `https://github.com/openfaas/faas-netes` repo:
+
+```bash
+git clone https://github.com/openfaas/faas-netes.git
+cd faas-netes
+```
+
+Install the namespaces:
+
+```bash
+kubectl apply -f namespaces.yml
+```
+
+This will create two namespaces in your cluster:
+
+1. `openfaas` - Which will hold the OpenFaaS cluster services (AKA. 'Control Plane").
+2. `openfaas-fn` - Stores the functions you deploy to OpenFaaS.
+
+Create a password for the OpenFaaS Gateway and add it as a secret into the cluster. The below commands will generate a random password and add the secret:
+
+```bash
+# Generate a random 12 character password
+PASSWORD=$(head -c 12 /dev/urandom | shasum| cut -d' ' -f1)
+
+# Add password as a Kubernetes secret in the openfaas namespace
+kubectl -n openfaas create secret generic basic-auth \
+--from-literal=basic-auth-user=admin \
+--from-literal=basic-auth-password="$PASSWORD"
+```
+
+Now deploy the OpenFaaS stack:
+
+```bash
+kubectl apply -f ./yaml
+```
+
+{{% tip class="warning" %}}The YAML installation is only recommended for local development, for deployment into a production environment it is recommended you use the Helm installation detailed [here](https://docs.openfaas.com/deployment/kubernetes/#a-deploy-with-helm-for-production){{% /tip %}}
+
+## Install the `faas-cli`
+
+The next step is installing the `faas-cli`. If you're on MacOS and already have `homebrew` install then installation is as simple as:
 
 ```bash
 brew install faas-cli
