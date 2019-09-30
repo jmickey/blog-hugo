@@ -83,7 +83,7 @@ Now deploy the OpenFaaS stack:
 kubectl apply -f ./yaml
 ```
 
-{{% tip class="warning" %}}The YAML installation is only recommended for local development, for deployment into a production environment it is recommended you use the Helm installation detailed [here](https://docs.openfaas.com/deployment/kubernetes/#a-deploy-with-helm-for-production){{% /tip %}}
+{{% tip class="warning" %}}**Important:** The YAML installation is only recommended for local development, for deployment into a production environment it is recommended you use the Helm installation detailed [here](https://docs.openfaas.com/deployment/kubernetes/#a-deploy-with-helm-for-production){{% /tip %}}
 
 ## Install the `faas-cli`
 
