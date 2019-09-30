@@ -44,7 +44,7 @@ Now create a cluster:
 
 ```bash
 k3d create
-export KUBECONFIG=$(k3d get-kubeconfig)
+export KUBECONFIG="$(k3d get-kubeconfig --name='k3s-default')"
 ```
 
 To install OpenFaaS to your `k3d` cluster, start by cloning the `https://github.com/openfaas/faas-netes` repo:
@@ -68,7 +68,7 @@ This will create two namespaces in your cluster:
 Create a password for the OpenFaaS Gateway and add it as a secret into the cluster. The below commands will generate a random password and add the secret:
 
 ```bash
-# Generate a random 12 character password
+# Generate a random 40 character password
 PASSWORD=$(head -c 12 /dev/urandom | shasum| cut -d' ' -f1)
 
 # Add password as a Kubernetes secret in the openfaas namespace
@@ -101,18 +101,17 @@ curl -sSL https://cli.openfaas.com | sudo sh
 
 {{% tip class="info" %}}**Note:** You can run the above script without `sudo`, but further steps will be required.{{% /tip %}}
 
-## Deploy the FaaS Stack
+## Configure `faas-cli` & Login to the OpenFaaS Dashboard
 
-You should now have a single node Docker cluster, which is all we need to get the FaaS stack up and running. To deploy the stack run:
+Configure the `faas-cli` to use your local OpenFaaS cluster by using the `faas-cli login` command. If running `k3d` you'll need to forward the gateway service port and set the `OPENFAAS_URL` environment variable:
 
 ```bash
-cd faas
-./deploy-stack.sh --no-auth
+kubectl port-forward svc/gateway -n openfaas 31112:8080 &
+export OPENFAAS_URL=http://127.0.0.1:31112
+echo $PASSWORD | faas-cli login --password-stdin
 ```
 
-{{% tip class="info" %}}**Note:** The `--no-auth` argument will allow you to interact with the faas stack without worrying about authentication, **do not** do this in production. {{% /tip %}}
-
-Once the deployment is complete open a browser and navigate to [http://localhost:8080](http://localhost:8080) to load the UI.
+Open a browser and navigate to [http://localhost:31112](http://localhost:31112) to load the UI. The UI will prompt for a username and password. The default username is `admin` and the password is the one you specified in the deployment instructions above, you can print this to your console using `echo $PASSWORD`.
 
 ![The OpenFaaS Dashboard](/images/2019/09/openfaas-local-dashboard.png"The OpenFaaS Local Dashboard")
 
