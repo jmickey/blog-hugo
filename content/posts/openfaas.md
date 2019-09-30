@@ -303,6 +303,16 @@ https://system.o6s.io/dashboard/<github-username>
 
 This post won't go into finer details of the dashboard, but I encourage you to have a look around, and refer to [the OpenFaaS Cloud docs](https://docs.openfaas.com/openfaas-cloud/user-guide/) if you want more information!
 
+## Cleanup
+
+Cleaning up the installation of OpenFaaS running on your local machine is as simple as:
+
+```bash
+k3d delete
+```
+
+This will remove the local `k3d` cluster, along with all the OpenFaaS resources.
+
 ## Thanks!
 
 Thanks for reading this tutorial on getting started with OpenFaaS. I hope you found it helpful, and feel free to get [in touch](mailto:j@mickey.dev) if you have any questions!
