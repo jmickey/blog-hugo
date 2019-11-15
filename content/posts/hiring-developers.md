@@ -4,9 +4,9 @@ authors: ["jmickey"]
 slug: "hiring-developers"
 title: "On Hiring Developers and the Technical Interview Process"
 description: "Thoughts on the hiring and interview process for developers, with a focus on inclusion."
-featured_image: "/images/featured/we-are-hiring.png"
+featured_image: "/images/featured/we-are-hiring.jpg"
 images:
-  - "/images/featured/we-are-hiring.png"
+  - "/images/featured/we-are-hiring.jpg"
 categories: ["Hiring"]
 tags: [
     "Hiring",
