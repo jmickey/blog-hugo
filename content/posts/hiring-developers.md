@@ -1,5 +1,5 @@
 ---
-date: "2019-05-13"
+date: "2019-11-15"
 authors: ["jmickey"]
 slug: "hiring-developers"
 title: "On Hiring Developers and the Technical Interview Process"
