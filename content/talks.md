@@ -6,7 +6,7 @@ weight: -270
 Occasionally I give talks at meetups or conferences. A full history of my talks in the form of slides can be found on [SpeakerDeck](https://mickey.dev/speakerdeck). Below is a list of the most recent talks I've given, along with any video recordings that might exist.
 
 ## Operating a Global Cloud Native Platform
-**Presented:** [Velocity Conference Berlin](https://conferences.oreilly.com/velocity/vl-eu/public/schedule/detail/78892) (November 2019)
+**Presented:** [Velocity Conference Berlin](https://conferences.oreilly.com/velocity/vl-eu/public/schedule/detail/78892) (November 2019)  
 **[Slides](https://speakerdeck.com/jmickey/operating-a-global-cloud-platform)**
 
 Condé Nast is home to some of the largest online publications in the world - including Vogue, GQ, Wired, and Vanity Fair. In an effort to provide a cohesive vision for these brands across more than 30 markets, a global, centralised platform was required. Utilising AWS and Kubernetes at its core, the platform officially launched in September 2018 and serves over 80 million unique monthly users.
