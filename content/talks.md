@@ -7,16 +7,15 @@ Occasionally I give talks at meetups or conferences. A full history of my talks 
 
 ## Operating a Global Cloud Native Platform
 **Presented:** [Velocity Conference Berlin](https://conferences.oreilly.com/velocity/vl-eu/public/schedule/detail/78892) (November 2019)
-
-**Slides**
-
-<script async class="speakerdeck-embed" data-id="be0415bb2c134bb99f8c82d034b4d6ec" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-
-**Description**
+**[Slides](https://speakerdeck.com/jmickey/operating-a-global-cloud-platform)**
 
 Condé Nast is home to some of the largest online publications in the world - including Vogue, GQ, Wired, and Vanity Fair. In an effort to provide a cohesive vision for these brands across more than 30 markets, a global, centralised platform was required. Utilising AWS and Kubernetes at its core, the platform officially launched in September 2018 and serves over 80 million unique monthly users.
 
 Of course, operating Cloud Native Infrastructure is more than just spinning up a container orchestrator! Auxiliary services are required in order to operate it effectively and provide developers with a true platform experience. The aim of this talk is to "go beyond the cluster", focusing on the problems that need to be solved before your platform can be truly considered "production ready". I will be discussing how Condé Nast effectively operates multiple Kubernetes clusters across the world, paying special attention to observability, testing, application delivery, and developer experience. I will also explore the mistakes made along the way, and how we learned from those mistakes.
+
+### Recording
+
+{{< youtube 9wrI7SBFAMs >}}
 
 ## Rapid API Development in Go
 **Presented:** [DDD East Anglia](https://dddeastanglia.com) (September 2019)  
@@ -39,7 +38,6 @@ Of course, operating Cloud Native Infrastructure is more than just spinning up a
 ### Recording
 
 {{< vimeo 357924357 >}}
-_There is currently an issue with this recording_
 
 ## Finding a Needle in a Call Stack - Intro to Distributed Tracing
 **Presented:** [DDD Perth](https://dddperth.com/) (August 2019), [Cloud Native London Conf](https://skillsmatter.com/conferences/11723-cloudnative-london-2019) (Sept 2019)  
@@ -48,7 +46,6 @@ _There is currently an issue with this recording_
 In this session I explore the basics of distributed tracing. I then take a look at the OpenTelemetry (formally OpenTracing) standard - a vendor neutral framework for distributed tracing instrumentation. Finally, I take a hands-on look at distributed tracing in action using Jaeger, a popular open source distributed tracing tool which is part of the Cloud Native Computing Foundation. By the end of this session I hope viewers will not only have a good understanding of distributed tracing, but will be equipped with the knowledge and inspiration to introduce it within their own applications.
 
 {{< vimeo 362281812 >}}
-_There is currently an issue with this recording_
 
 ## Killing Bugs with KINDness - Kubernetes in CI with K8s in Docker (KIND)
 
