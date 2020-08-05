@@ -12,7 +12,7 @@ weight: -270
 
 I'm Josh. Originally from Perth Australia 🇦🇺, I now live in Cambridge, UK :gb: working remotely. I moved to the UK in December, 2018 while my partner completes her PhD in Cancer Biology at Cambridge University in partnership with the Cancer Research UK Cambridge Institute.
 
-I'm a Senior Software Engineer at [Snyk](https://snyk.io) working on container and Kubernetes security products, mostly using TypeScript, Go, Kubernetes, and Google Cloud. Previously I was a Senior Platform Engineer at [Condé Nast International](https://condenastinternational.com), working with Kubernetes, AWS, Go, Terraform, Datadog, Fastly, and an assortment of other tools and services.
+I'm a Senior Software Engineer at [Snyk](https://snyk.io) working on container and Kubernetes security products, mostly using TypeScript, Go, Kubernetes, and Google Cloud. Previously I was a Senior Platform Engineer at [Condé Nast](https://condenast.com), working with Kubernetes, AWS, Go, Terraform, and an assortment of other tools and services.
 
 Occasionally I speak at tech events and meetups, you can see my various slide decks on [Speaker Deck](https://speakerdeck.com/jmickey).
 

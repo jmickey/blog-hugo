@@ -13,8 +13,11 @@
 		{{ end }}
     {{ with .Site.Params.subtitle}}
     <h2 class="description">
-       {{ . }}
+       <big>{{ . }}</big>
     {{ with $.Site.Params.subtitle_additional}}
+       <br/>{{ . }}
+    {{ end }}
+    {{ with $.Site.Params.subtitle_additional_2}}
        <br/>{{ . }}
     {{ end }}
     </h2>
