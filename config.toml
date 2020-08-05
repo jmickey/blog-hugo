@@ -55,11 +55,16 @@ pygmentsCodefences = true
       url = "/talks"
       weight = 3
 
+    [[menu.main]]
+      name = "Resume"
+      url = "/Resume"
+      weight = 4
+
 [params]
   author = "Josh Michielsen"
-  subtitle = "Senior Platform Engineer @ Condé Nast International"
-  subtitle_additional = "Platform Engineering, Kubernetes, AWS, Go, Cycling, Photography, Coffee"
-  description = "Aussie 🇦🇺 in Cambridge 🇬🇧. Senior Software Engineer, Cloud Platform @ Condé Nast International. Previously Bankwest. #doge owner. Photographer 📷"
+  subtitle = "Senior Software Engineer @ Snyk"
+  subtitle_additional = "Software Engineering, Kubernetes, TypeScript, Go, Container Security, Cycling, Photography, Coffee"
+  description = "Aussie 🇦🇺 in Cambridge 🇬🇧. Senior Software Engineer, Snyk. Previously Platforms and Kubernetes at Condé Nast. #doge owner. Photographer 📷"
   socialShare = true
 
 [params.gravatar]
