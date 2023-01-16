@@ -63,9 +63,9 @@ pygmentsCodefences = true
 [params]
   author = "Josh Michielsen"
   subtitle = "Senior Software Engineer @ Snyk"
-  subtitle_additional = "Software Engineering, Kubernetes, TypeScript, Go, Container Security"
+  subtitle_additional = "Platform & Software Engineering, Kubernetes, Go, GitOps, Container Security"
   subtitle_additional_2 = "Cycling, Photography, Coffee"
-  description = "Aussie 🇦🇺 in Cambridge 🇬🇧. Senior Software Engineer, Snyk. Previously Platforms and Kubernetes at Condé Nast. #doge owner. Photographer 📷"
+  description = "Aussie 🇦🇺 in Cambridge 🇬🇧. Technical Lead @ Weaveworks. Previously Container & Kubernetes Security @ Synk, and Platforms & Kubernetes @ Condé Nast. #doge owner. Photographer 📷"
   socialShare = true
 
 [params.gravatar]
