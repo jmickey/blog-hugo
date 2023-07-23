@@ -16,10 +16,10 @@ I'm Josh. I’m an experienced technical leader in the areas of software develop
 * AWS cloud administration
 * Go, TypeScript, Python, and C# programming languages
 * Infrastructure as Code, with extensive Terraform experience
-* Continuous integration & delivery systems (CircleCI, ConcourseCI, TeamCity)
+* Continuous integration & delivery systems (GitHub Actions, CircleCI, ConcourseCI, TeamCity)
 * Agile development methodologies (Scrum, Kanban)
 
-I'm currently at [Weaveworks](https://weave.works) as a Tech Lead working on bare metal and edge Kubernetes solutions using [Firecracker MicroVMs](https://firecracker-microvm.github.io/). Previously I worked at [Snyk](https://snyk.io) solving Kubernetes security challenges and [Condé Nast](https://condenast.com) building a large scale global Kubernetes platform.
+I'm currently a Principal Software Engineer at Dataminr working on developer tooling and deploying & managing Kubernetes at scale. Previously I have worked at Weaveworks on the Weave GitOps Enterprise and Liquid Metal teams, Snyk solving Kubernetes and container security challenges, and Condé Nast building a large scale global Kubernetes platform.
 
 Occasionally I speak at tech events and meetups, you can see my various slide decks on [Speaker Deck](https://speakerdeck.com/jmickey).
 

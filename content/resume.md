@@ -3,9 +3,15 @@ title: Resume
 weight: -270
 ---
 
+# [Dataminr](https://dataminr.com)
+
+**Principal Software Engineer** / _July 2023 - Present_ / Remote
+
+Technical leader. Ownership over multiple domains. Mentorship. Force multiplier.
+
 # [Weaveworks](https://weave.works)
 
-**Technical Lead** / _Oct 2021 - Present_ / Remote
+**Technical Lead** / _Oct 2021 - July 2023_ / Remote
 
 Weaveworks is an industry leader within the GitOps space, specialising in the management and operation of Kubernetes clusters using Git as the source of truth. As a Technical Lead and Engineering Manager, I’m responsible for providing technical leadership across the engineering organisation, providing support and mentorship as an Engineering Manager, in addition to planning and leading feature delivery.
 

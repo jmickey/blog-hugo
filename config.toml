@@ -1,7 +1,7 @@
 baseURL = "https://mickey.dev"
 title = "Josh Michielsen (Jmickey)"
 theme = "KeepItNew"
-copyright = "2019 Josh Michielsen"
+copyright = "2023 Josh Michielsen"
 enableEmoji = true
 enableRobotsTXT = true
 defaultContentLanguage = "en"
@@ -62,10 +62,10 @@ pygmentsCodefences = true
 
 [params]
   author = "Josh Michielsen"
-  subtitle = "Technical Lead @ Weaveworks"
+  subtitle = "Principal Software Engineer @ Dataminr"
   subtitle_additional = "Platform & Software Engineering, Kubernetes, Go, GitOps, Container Security"
   subtitle_additional_2 = "Cycling, Photography, Coffee"
-  description = "Aussie 🇦🇺 in Cambridge 🇬🇧. Technical Lead @ Weaveworks. Previously Container & Kubernetes Security @ Synk, and Platforms & Kubernetes @ Condé Nast. #doge owner. Photographer 📷"
+  description = "Aussie 🇦🇺 in Cambridge 🇬🇧. Principal Software Engineer @ Dataminr. Previously GitOps & MicroVMs @ Weaveworks, Container & Kubernetes Security @ Synk, and Platforms & Kubernetes @ Condé Nast. #doge owner. Photographer 📷"
   socialShare = true
 
 [params.gravatar]
