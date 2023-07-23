@@ -19,7 +19,7 @@ I'm Josh. I’m an experienced technical leader in the areas of software develop
 * Continuous integration & delivery systems (GitHub Actions, CircleCI, ConcourseCI, TeamCity)
 * Agile development methodologies (Scrum, Kanban)
 
-I'm currently a Principal Software Engineer at Dataminr working on developer tooling and deploying & managing Kubernetes at scale. Previously I have worked at Weaveworks on the Weave GitOps Enterprise and Liquid Metal teams, Snyk solving Kubernetes and container security challenges, and Condé Nast building a large scale global Kubernetes platform.
+I'm currently a Principal Software Engineer at [Dataminr](https://dataminr.com) working on developer tooling and deploying & managing Kubernetes at scale. Previously I have worked at [Weaveworks](https://weave.works) on the Weave GitOps Enterprise and [Liquid Metal](https://github.com/weaveworks-liquidmetal) teams, [Snyk](https://snyk.io) solving Kubernetes and container security challenges, and [Condé Nast](https://condenast.com) building a large scale global Kubernetes platform.
 
 Occasionally I speak at tech events and meetups, you can see my various slide decks on [Speaker Deck](https://speakerdeck.com/jmickey).
 
